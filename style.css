@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+body{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1019%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(16%2c 0%2c 43%2c 1)'%3e%3c/rect%3e%3cpath d='M827.73 110.22 a170.59 170.59 0 1 0 341.18 0 a170.59 170.59 0 1 0 -341.18 0z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M891.8958676579658 188.77575149763015L971.672578251824 224.29463147357322 985.0625429188095 86.87012559481448z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1373.479865264047 57.921684378867994L1370.6884284641394 209.56103915626096 1487.7488283977684 147.3189204374857z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M181.25046220324077 330.58765970799277L188.8755870544657 439.6320253711216 348.6295731235465 373.6721552627198z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M378.49 352.69 a123.39 123.39 0 1 0 246.78 0 a123.39 123.39 0 1 0 -246.78 0z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M483.20128614672836 288.0714870414296L601.0644102353916 214.42243307813794 527.4153562721 96.55930898947469 409.55223218343673 170.20836295276635z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M717.7505384349386 645.1790386448408L817.8433836379809 541.5298632435436 714.1942082366836 441.43701804050124 614.1013630336413 545.0861934417985z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M71.15 71.03 a168.85 168.85 0 1 0 337.7 0 a168.85 168.85 0 1 0 -337.7 0z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M950.2642485614717 480.73819978474677L987.0496430676067 618.0231610581077 1124.3346043409676 581.2377665519726 1087.5492098348327 443.9528052786118z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M77.25293742580311 247.8302908037556L89.42458146754535 170.98155479912003-31.934344560279143 191.14845673882445z' fill='rgba(90%2c 24%2c 154%2c 0.14)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1019'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+
+
+    margin-top: 50px;
+
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    background: #9773ad;
+    box-shadow:  25px 25px 46px #9975b062,
+                -25px -25px 46px #ffdfff2f;
+}
+
+#titulo{
+    margin-left: 25%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 38px;
+}
+.info{
+    margin-left: 15%;
+    font-size: 20px;
+}
+input{
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15%;
+    width: 330px;
+    height: 30px;
+    border: 0cm;    
+    border-radius: 4px;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-top: 5%;
+    margin-left: 41%;  
+    width: 90px;
+    height: 50px;
+    background-color: #240046;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0cm;
+}
+#resultado{
+    margin-top: 5%;
+    margin-left: 41%;  
+    font-size: 20px;
+}
